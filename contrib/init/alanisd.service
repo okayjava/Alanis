@@ -1,0 +1,26 @@
+[Unit]
+Description=ALS's distributed currency daemon
+After=network.target
+
+[Service]
+User=alanis
+Group=alanis
+
+Type=forking
+PIDFile=/var/lib/alanisd/alanisd.pid
+
+ExecStart=/usr/bin/alanisd -daemon -pid=/var/lib/alanisd/alanisd.pid \
+          -conf=/etc/alanis/alanis.conf -datadir=/var/lib/alanisd
+
+ExecStop=-/usr/bin/alanis-cli -conf=/etc/alanis/alanis.conf \
+         -datadir=/var/lib/alanisd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

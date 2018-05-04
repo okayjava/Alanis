@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ALS
+Comment=ALS P2P Cryptocurrency
+Exec=alanis-qt %u
+Terminal=false
+Type=Application
+Icon=alanis128
+MimeType=x-scheme-handler/alanis;
+Categories=Office;Finance;
+Name[en_US]=alanis-qt.desktop

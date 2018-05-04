@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/alanis_bg.qm</file>
+        <file alias="de">locale/alanis_de.qm</file>
+        <file alias="en">locale/alanis_en.qm</file>
+        <file alias="es">locale/alanis_es.qm</file>
+        <file alias="fi">locale/alanis_fi.qm</file>
+        <file alias="fr">locale/alanis_fr.qm</file>
+        <file alias="it">locale/alanis_it.qm</file>
+        <file alias="ja">locale/alanis_ja.qm</file>
+        <file alias="pl">locale/alanis_pl.qm</file>
+        <file alias="pt">locale/alanis_pt.qm</file>
+        <file alias="ru">locale/alanis_ru.qm</file>
+        <file alias="sk">locale/alanis_sk.qm</file>
+        <file alias="sv">locale/alanis_sv.qm</file>
+        <file alias="vi">locale/alanis_vi.qm</file>
+        <file alias="zh_CN">locale/alanis_zh_CN.qm</file>
+        <file alias="zh_TW">locale/alanis_zh_TW.qm</file>
+    </qresource>
+</RCC>

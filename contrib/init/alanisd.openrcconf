@@ -1,0 +1,26 @@
+# /etc/conf.d/alanisd: config file for /etc/init.d/alanisd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/alanis/alanis.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/alanisd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/alanisd.pid"
+
+# Where to write alanisd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/alanisd"
+
+# User and group to own alanisd process
+#BITCOIND_USER="alanis"
+#BITCOIND_GROUP="alanis"
+
+# Path to alanisd executable
+#BITCOIND_BIN="/usr/bin/alanisd"
+
+# Nice value to run alanisd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
